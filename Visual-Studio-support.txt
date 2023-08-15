@@ -1,0 +1,9 @@
+
+Vs Code Plugin:
+
+1. HTML CSS Support - auto-completion for id and class attribute
+2. CSS Peek - quickly navigate to html and css code.
+3. Prettier - code formatter
+4. Highligth Matching Tag - highlight matching and closing Tag
+5. Todo Highlight - highlight TODO, FIXME, and any keywords
+6. GIT - tracking project history
