@@ -129,7 +129,7 @@ a {
     }
     .badge--small {
         font-size: 1.2rem;
-    };
+    }
 }
 
 /* List */
@@ -203,7 +203,7 @@ a {
     font-weight: 600;
     margin: 1rem 0;
     outline: 0;
-    padding: 2rem 3rem;
+    padding: 2rem 4vw;
     text-align: center;
     text-transform: uppercase;
     white-space: nowrap;
@@ -297,6 +297,7 @@ a {
     border: 0;
     flex-grow: 1;
     padding: 1.5rem 2rem;
+    width: 0;
 }
 
 .input-group .btn {
@@ -624,7 +625,7 @@ a {
 
 /* Blocks */
 .block {
-    --padding-vertical: 6rem;
+    --padding-vertical: 5rem;
     padding: var(--padding-vertical) 2rem;
     /* border: 2px solid red; */
 }
@@ -765,8 +766,9 @@ a {
 
 
 .block-domain__prices {
+    color: var(--color-headings);
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 6rem);
     justify-items: center;
     font-size: 2rem;
@@ -848,6 +850,7 @@ a {
 /* Footer */
 .footer {
     background-color: #232323;
+    padding-top: 10rem;
 }
 
  /* Footer  */
@@ -873,14 +876,15 @@ a {
 
 .footer .collapsible {
     padding: 2rem;
-    border-bottom: 1px solid #505050;
+    border-bottom: 1px solid #393939
 }
 
 
 .footer .collapsible__heading {
-    /* font-size: 2.5rem; */
+    font-size: 2.5rem;
     text-transform: uppercase;
     font-weight: 600;
+    /* line-height: 1.5 */
 }
 
 
@@ -932,6 +936,13 @@ a {
 
     .footer .collapsible__heading {
         font-size: 1.6rem ;
+        line-height: 1.5
     }
 
 }
+
+/* Sign-up Callout */
+.callout-signup {
+    transform: translateY(5rem);
+  }
+  
