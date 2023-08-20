@@ -5,6 +5,3 @@ collapsibles.forEach( (collapsible) => {
         this.classList.toggle("collapsible__expanded");
     });
 });
-
-console.log(window.innerWidth)
-console.log(window.innerHeight)
